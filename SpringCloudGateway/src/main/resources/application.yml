@@ -1,0 +1,16 @@
+#server:
+#  port: 8080
+#
+##spring:
+##  cloud:
+##    gateway:
+##      mvc:
+##        routes:
+##        - id: ms1
+##          uri: http://localhost:8081
+##          predicates:
+##            - Path=/ms1/**
+##        - id: ms2
+##          uri: http://localhost:8082
+##          predicates:
+##            - Path=/ms2/**
